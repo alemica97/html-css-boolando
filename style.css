@@ -48,26 +48,27 @@ img{
 }
 
 .sconto, .sostenibilita{
+    display: inline-block;
     text-align: center;
     padding: 2px;
 } 
+
+.extra{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
 
 .sconto{
     width: 40px;
     color: white;
     background-color: red;
-    position: absolute;
-    left: 0;
-    bottom: 100px;
 }
 
 .sostenibilita{
     width: 100px;
     color: white;
     background-color: green;
-    position: absolute;
-    bottom: 100px;
-    left: 44px;
 }
 
 .new-price{
