@@ -15,19 +15,17 @@
 
 .item{
     display: inline-block;
-    position: relative;
+    padding: 10px;
 }
 
 .images{
     width: 640px;
     height: 924px;
+    position: relative;
 }
 
-img{
+.img1, .img2{
     width: 100%;
-}
-
-.img2{
     position: absolute;
     top: 0;
     left: 0;
@@ -45,7 +43,7 @@ img{
     background-color: white;
     text-align: center;
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 30px;
 }
 
@@ -58,16 +56,16 @@ img{
 .extra{
     position: absolute;
     left: 0;
-    bottom: 100px;
+    bottom: 40px;
 }
 
-.sconto{
+.extra > .sconto{
     width: 40px;
     color: white;
     background-color: red;
 }
 
-.sostenibilita{
+.extra > .sostenibilita{
     width: 100px;
     color: white;
     background-color: green;
