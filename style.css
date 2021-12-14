@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .container{
     width: 2000px;
     height: 3000px;
     margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .item{
@@ -28,7 +31,6 @@ img{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0;
 }
 
 .item > .description{
